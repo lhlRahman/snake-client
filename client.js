@@ -6,6 +6,7 @@ const connect = function() {
     host: "localhost",
     port: "50541"
   });
+  
 
   // interpret incoming data as text
   conn.setEncoding("utf8");
@@ -17,7 +18,14 @@ const connect = function() {
   conn.on("connect", () => {
     console.log("Successful Connection!");
     conn.write("Name: HAB");
+
+    /*setInterval(() => {
+      conn.write("Move: up");
+    }, 50);
+    */
   });
+
+  conn.write("Move: up");
 
   return conn;
 };
