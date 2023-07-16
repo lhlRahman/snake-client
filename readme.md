@@ -6,8 +6,8 @@ This project serves as the client-side of the Snake game. It connects to the Sna
 
 ## Final Product
 
-![Linux Window](linux_window.png)
-![Snake Window](snake_window.png)
+![Linux Window](linux_window.JPG)
+![Snake Window](snake_window.JPG)
 
 The screenshots above depict the graphical user interface of the Snake Client. The Linux Window showcases the terminal interface where the game is played, while the Snake Window displays the graphical representation of the game grid and the snake.
 
