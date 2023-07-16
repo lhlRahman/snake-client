@@ -1,17 +1,18 @@
+const {UP, DOWN, LEFT, RIGHT} = require("./constants");
 
 let connection;
 
 const handleUserInput = function(data) {
-  if (data === "w") {
+  if (data === UP) {
     connection.write("Move: up");
   }
-  if (data === "s") {
+  if (data === DOWN) {
     connection.write("Move: down");
   }
-  if (data === "a") {
+  if (data === LEFT) {
     connection.write("Move: left");
   }
-  if (data === "d") {
+  if (data === RIGHT) {
     connection.write("Move: right");
   }
   if (data === "g") {
